@@ -16,9 +16,9 @@ export function formatDate(input: string | number): string {
 
 export function getUrl() {
   if (process.env.NODE_ENV === "development") {
-    return process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+    return process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3003";
   } else {
-    return process.env.NEXT_PUBLIC_WEB_URL || "https://timtb.dev";
+    return process.env.NEXT_PUBLIC_WEB_URL || "https://anoira16.netlify.app";
   }
 }
 
